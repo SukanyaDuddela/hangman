@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman</title>
+    <link rel="stylesheet" href="hangman.css">
+</head>
+<body>
+    <h1>Hangman Game</h1>
+    <p id="hint">Hint: </p>
+    <p id="word">_ _ _ _ _ _</p>
+    <p id="msg"></p>
+    <canvas id="hangmanCanvas"></canvas>
+    <div id="word-container">
+        <h2>Word: <span id="word-display"></span></h2>
+        <p id="hint">Hint: A programming language</p>
+        <p id="timer">Time remaining: <span id="time-remaining">60</span> seconds</p>
+    </div>
+
+    <script src="hangman.js"></script>
+</body>
+</html>
